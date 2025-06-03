@@ -1,0 +1,11 @@
+** Write a python program to accept a string and converted into a list? **
+
+s = input("Enter the string : ")
+print(s.split())
+
+Output:
+
+Enter the string : python is very easy learning program
+
+
+['python', 'is', 'very', 'easy', 'learning', 'program']

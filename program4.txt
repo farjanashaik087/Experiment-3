@@ -1,0 +1,11 @@
+** Write a python program to find sum of the elements in a list? **
+
+mylist = [8,2,3,0,7]
+sum = 0
+for i in mylist:
+  sum = sum + i:
+print("The sum is : ",sum)
+
+Output:
+
+The sum is :  20

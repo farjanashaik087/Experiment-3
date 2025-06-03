@@ -1,0 +1,32 @@
+** Write a python program to accept N numbers and store them in list,
+then print the list without odd numbers in it. **
+
+n = int(input("Enter the values of n : "))
+mylist = []
+for i in range(n):
+  num = int(input("Enter a number : "))
+  mylist.append(num)
+print("Even numbers are :")
+print("[",end="")
+for num in mylist:
+  if num % 2 == 0:
+     print(num,end = ",")
+print("]")
+
+Output:
+
+Enter the values of n : 5
+
+Enter a number : 10
+
+Enter a number : 5
+
+Enter a number : 20
+
+Enter a number : 25
+
+Enter a number : 33
+
+Even numbers are :
+
+[10,20,]

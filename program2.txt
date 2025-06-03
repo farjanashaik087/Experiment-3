@@ -1,0 +1,20 @@
+** Write a python program to accessing and remove the elements from a list? **
+
+l = [10,20,30,"milky",(10+20j),True,1]
+print(l[3])
+print(l[-2])
+print(l[1:4])
+print(l)
+l.remove(30)
+print(l)
+
+Output:
+
+milky
+
+True
+
+[20, 30, 'milky']
+
+[10, 20, 30, 'milky', (10+20j), True, 1]
+[10, 20, 'milky', (10+20j), True, 1]

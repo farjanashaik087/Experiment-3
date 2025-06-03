@@ -1,0 +1,25 @@
+** Write a python program to create empty list and store the elements? **
+
+mylist = []
+n = int(input("Enter any number : "))
+for x in range (n):
+  num = int(input("Enter a number : "))
+  mylist.append(num)
+print("my updated list is : ",mylist)
+
+
+output:
+
+Enter any number : 5
+
+Enter a number : 10
+
+Enter a number : 20
+
+Enter a number : 30
+
+Enter a number : 40
+
+Enter a number : 50
+
+my updated list is :  [10, 20, 30, 40, 50]
